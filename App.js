@@ -27,7 +27,7 @@ async function carregaDolar(){
 		  <TouchableOpacity  
 			  onPress={carregaDolar}
 				  style={styles.botao}>
-				  <Text style={styles.textobotao}>Dolar para Real:</Text>
+				  <Text style={styles.textobotao}>Dolar para Real</Text>
 
 			  </TouchableOpacity>
 				  
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
 	bloco: {
     alignItems: 'center',
     justifyContent: 'center',
-	width: '80%',
+	width: '30%',
 	backgroundColor: '#92A9BD',
     borderRadius: 5,
 	},
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
 
 	textobloco: {
 		color: '#fff',
-		fontSize: 20,
+		fontSize: 30,
 		padding: 20,
 	},
 
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
 
 	textobotao:{
 		color: '#fff',
-		fontSize: 22,
+		fontSize: 25,
 
 	},
 
